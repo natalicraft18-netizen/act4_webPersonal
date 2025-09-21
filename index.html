@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Sitio Personal de Natalia</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        body {
+            background-color: rgb(230, 245, 250);
+            background-image: url('fotos/bola2.jpg');;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        h1,h2,h3,h4 { color: rgb(188, 172, 255); }
+        header {
+            background-color: rgb(228, 209, 255);
+            background-image: url('fotos/portada.jpg');;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav ul { list-style: none; padding: 0; }
+        nav ul li { display: inline; margin: 0 15px; }
+        nav ul li a { color: white; text-decoration: none; font-weight: bold; }
+        nav ul li a:hover { color: rgb(166, 0, 255); }
+        main { padding: 20px; }
+        section, article, aside {
+            background-color: rgb(246, 220, 255);
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(88, 143, 172, 0.6);
+        }
+        aside { border-left: 10px solid rgb(247, 149, 217); }
+        footer {
+            background-color: plum;
+            text-align: center;
+            color: white;
+            padding: 10px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        table, th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        .fab { color: white; }
+    </style>
+</head>
+<body>
+
+    <!-- ENCABEZADO -->
+    <header>
+        <h1>Mi Sitio Personal</h1>
+        <p><b>Creado por: Natalia Esmeralda Gómez Hurtado LEVN401</b></p>
+        <nav>
+            <ul>
+                <li><a href="#bio">Biografía</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#tabla">Tabla</a></li>
+                <li><a href="#video">Video</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- CONTENIDO -->
+    <main>
+        <!-- Biografía -->
+        <section id="bio">
+            <h2>Sobre mí</h2>
+            <p>Hola me llamo <b>Natalia</b> Me considero una persona <i>curiosa</i>, <u>creativa</u> y con muchas <mark>ganas de aprender</mark>. 
+            Disfruto mucho aprender idiomas, la <small>lectura</small> y las manualidades <br>
+            Actualmente estoy desarrollando proyectos relacionados con mi carrera de Entornos Virtuales y Negocios Digitales hasta el momento me ha gusrtado la carrera</p>
+            <img src="fotos/yo.jpg" alt="Foto mía en Navidad" width="300">
+        </section>
+
+        <!-- Hobbies -->
+        <article id="hobbies">
+            <h3>Mis hobbies favoritos</h3>
+            <ul>
+                <li>Natación</li>
+                <li>Aprender idiomas</li>
+                <li>Escribir poemas</li>
+                <li>Hacer manualidades</li>
+            </ul>
+        </article>
+
+        <!-- Datop -->
+        <aside>
+            <h4>Dato curioso</h4>
+            <p>Uno de mis sueños es viajar a Japón y Brasil para practicar lo que he aprendido y disfrutar su cultura</p>
+        </aside>
+
+        <!-- Tabla -->
+        <section id="tabla">
+            <h2>Mis actividades favoritas por día</h2>
+            <table>
+                <tr>
+                    <th>Día</th>
+                    <th>Actividad</th>
+                </tr>
+                <tr>
+                    <td>Lunes</td>
+                    <td>Natación</td>
+                </tr>
+                <tr>
+                    <td>Martes</td>
+                    <td>Estudiar portugués</td>
+                </tr>
+                <tr>
+                    <td>Miércoles</td>
+                    <td>Leer un libro</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="video">
+            <h2>Un video que me inspira</h2>
+    <iframe width="560" height="315"
+    src="fotos/video.mp4"
+    title="Video musical"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+</iframe>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Natalia Gómez | Contacto: <a href="mailto:natalia@platano.com">natalia@platano.com</a></p>
+        <nav>
+            <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </nav>
+    </footer>
+</body>
+</html>
